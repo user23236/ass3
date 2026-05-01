@@ -76,12 +76,12 @@ Binary Search is one of the fastest searching algorithms, but it only works on s
 
 | Array Size | Input Type | Insertion Sort (ns) | Merge Sort (ns) | Binary Search (ns) |
 |-----------|------------|--------------------:|----------------:|-------------------:|
-| 10        | Random     | 4200                | 6800            | 900                |
-| 10        | Sorted     | 1100                | 5100            | 700                |
-| 100       | Random     | 38500               | 14800           | 1100               |
-| 100       | Sorted     | 4200                | 13100           | 900                |
-| 1000      | Random     | 1820000             | 148000          | 1500               |
-| 1000      | Sorted     | 21000               | 132000          | 1000               |
+| 10        | Random     | 12300               | 14200           |                    |
+| 10        | Sorted     | 900                 | 5200            | 3400               |
+| 100       | Random     | 82200               | 100300          |                    |
+| 100       | Sorted     | 6100                | 78800           | 1900               |
+| 1000      | Random     | 7913900             | 1102900         |                    |
+| 1000      | Sorted     | 47400               | 1081400         | 2300               |
 
 > Replace these values with your actual program output.
 
