@@ -2,13 +2,11 @@ import java.util.Random;
 
 public class Sorter {
 
-    // Basic Sort: Insertion Sort
     public void basicSort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             int key = arr[i];
             int j = i - 1;
 
-            // Move larger elements one position ahead
             while (j >= 0 && arr[j] > key) {
                 arr[j + 1] = arr[j];
                 j--;
@@ -18,7 +16,6 @@ public class Sorter {
         }
     }
 
-    // Advanced Sort: Merge Sort
     public void advancedSort(int[] arr) {
         mergeSort(arr, 0, arr.length - 1);
     }
