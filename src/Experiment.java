@@ -42,14 +42,13 @@ public class Experiment {
             int[] sortedArray = Arrays.copyOf(randomArray, randomArray.length);
             Arrays.sort(sortedArray);
 
-            // Sorting Experiments
+
             long basicRandom = measureSortTime(randomArray, "basic");
             long advancedRandom = measureSortTime(randomArray, "advanced");
 
             long basicSorted = measureSortTime(sortedArray, "basic");
             long advancedSorted = measureSortTime(sortedArray, "advanced");
 
-            // Searching Experiment
             int target = sortedArray[size / 2];
             long searchTime = measureSearchTime(sortedArray, target);
 
